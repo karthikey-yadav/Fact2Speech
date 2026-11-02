@@ -116,3 +116,11 @@ output/
 *.npy
 TextGrid/
 hifigan/*.pth.tar
+
+# project
+.venv/
+raw_data/
+preprocessed_data/
+output/
+*.zip
+*.tar.gz
