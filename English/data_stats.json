@@ -1,0 +1,30 @@
+{
+ "raw_utts": 6656,
+ "raw_hours": 9.61,
+ "pool_utts": 5020,
+ "pool_hours": 7.76,
+ "train": {
+  "utts": 4154,
+  "hours": 6.36,
+  "speakers": 114
+ },
+ "val": {
+  "utts": 864,
+  "hours": 1.4,
+  "speakers": 114
+ },
+ "val_speakers_not_in_train": 0,
+ "filters": {
+  "dur": [
+   1.0,
+   15.0
+  ],
+  "chars_per_sec": [
+   4,
+   25
+  ],
+  "sr": 22050,
+  "seed": 1234,
+  "speaker_id": "proxy: metadata tuple"
+ }
+}
